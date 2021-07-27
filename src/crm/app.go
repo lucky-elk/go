@@ -6,7 +6,14 @@ import (
 	"time"
 )
 
-const price int = 123
+const n = 1
+const (
+	price = n + 2
+	_
+	price2
+	price3
+	price4
+)
 
 func variable() {
 	var a int = 1
@@ -27,6 +34,9 @@ func sleepTime() {
 
 func main() {
 	fmt.Println(price)
+	fmt.Println(price2)
+	fmt.Println(price3)
+	fmt.Println(price4)
 	var sd string = "老男孩"
 	fmt.Println(sd)
 	fmt.Println(&sd)
