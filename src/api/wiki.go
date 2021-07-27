@@ -2,7 +2,6 @@ package api
 
 import "fmt"
 
-func Google() {
-	BaiDu()
-	fmt.Println("输出：Google")
+func Wiki() {
+	fmt.Println("输出：Wiki")
 }
